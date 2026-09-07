@@ -24,22 +24,27 @@ export default function MainImage({
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   useEffect(() => {
-    const preloadImages = async () => {
-      await Promise.all(
-        items.map(
-          (src) =>
-            new Promise<void>((resolve) => {
-              const img = new Image();
-              img.src = src;
-              img.onload = () => resolve();
-            }),
-        ),
-      );
-      setIsLoaded(true);
-    };
+    let cancelled = false;
 
-    preloadImages();
-  }, [items]);
+    const preload = (src: string): Promise<void> =>
+      new Promise<void>((resolve) => {
+        const img = new Image();
+        // 실패해도 resolve한다. 이미지 하나 때문에 화면이 멈추면 안 된다.
+        img.onload = () => resolve();
+        img.onerror = () => resolve();
+        img.src = src;
+      });
+
+    // 첫 장만 기다렸다가 바로 보여주고, 나머지는 배경에서 받는다.
+    preload(items[0]).then(() => {
+      if (!cancelled) setIsLoaded(true);
+    });
+    items.slice(1).forEach(preload);
+
+    return () => {
+      cancelled = true;
+    };
+  }, [items, setIsLoaded]);
 
   useEffect(() => {
     if (!isLoaded) return;
@@ -85,6 +90,7 @@ export default function MainImage({
           <img
             src={items[selectedIndex]}
             alt="IT 직군 이미지"
+            decoding="async"
             className="h-full w-full object-contain"
           />
         </motion.div>

@@ -6,13 +6,13 @@ const CONTACTS = [
   {
     type: "KUCC Website",
     name: "KUCC 홈페이지",
-    image: asset("/mascot.png"),
+    image: asset("/mascot.webp"),
     href: "https://kucc.co.kr/",
   },
   {
     type: "Instagram",
     name: "KUCC 공식 인스타그램",
-    image: asset("/logos/instagram.png"),
+    image: asset("/logos/instagram.webp"),
     href: "https://www.instagram.com/kucc.co.kr/",
   },
 ];

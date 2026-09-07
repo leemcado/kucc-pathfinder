@@ -444,7 +444,7 @@ export const CAREER: {
   };
 } = {
   frontend: {
-    image: "/images/frontend.png",
+    image: "/images/frontend.webp",
     emoji: "🚀",
     summary: "웹 화면을 만드는 마법사",
     title: "프론트엔드 개발자",
@@ -468,7 +468,7 @@ export const CAREER: {
       "**프론트엔드 개발자**는 우리가 보는 웹사이트나 앱 화면을 만들고, 상호작용을 설계하는 역할을 해요! 🖥️ **빠른 속도**, **반응형 디자인**, **접근성**까지 고려해 UX를 개선하는 직군이에요. 🚀",
   },
   mobile: {
-    image: "/images/mobile.png",
+    image: "/images/mobile.webp",
     emoji: "📱",
     summary: "손안의 세상을 만드는 창조자",
     title: "모바일 앱 개발자",
@@ -491,7 +491,7 @@ export const CAREER: {
       "**모바일 앱 개발자**는 스마트폰에서 동작하는 앱을 만들어요! 📱 **React Native, Flutter** 또는 **네이티브 기술**을 활용해 최적화된 앱을 개발해요. 🚀",
   },
   security: {
-    image: "/images/security.png",
+    image: "/images/security.webp",
     emoji: "🔒",
     summary: "디지털 세상의 수호자",
     title: "보안 전문가",
@@ -515,7 +515,7 @@ export const CAREER: {
       "**보안 전문가**는 해킹으로부터 시스템과 데이터를 보호하는 역할을 해요! 🔒 **취약점 분석, 암호학, 침해 대응** 기술을 연구하며 보안 위협에 대응하는 직군이에요. ⚔️",
   },
   data: {
-    image: "/images/data.png",
+    image: "/images/data.webp",
     emoji: "📊",
     summary: "데이터 속 숨겨진 비밀을 찾는 탐험가",
     title: "데이터 과학자",
@@ -539,7 +539,7 @@ export const CAREER: {
       "**데이터 과학자**는 데이터를 분석하고 의미 있는 인사이트를 도출하는 역할을 해요! 📊 **통계, 머신러닝, 데이터 시각화** 기술을 활용해 기업의 의사결정을 돕는 직군이에요. 🔍",
   },
   ai: {
-    image: "/images/ai.png",
+    image: "/images/ai.webp",
     emoji: "🤖",
     summary: "기계를 똑똑하게 만드는 마법사",
     title: "인공지능(AI) 개발자",
@@ -563,7 +563,7 @@ export const CAREER: {
       "**AI 개발자**는 **컴퓨터가 스스로 학습하고 판단할 수 있도록 만드는 일**을 해요! 🤖 **딥러닝, 머신러닝**을 활용해 다양한 분야에서 **AI 모델을 개발**하는 직군이에요. 🚀",
   },
   devops: {
-    image: "/images/devops.png",
+    image: "/images/devops.webp",
     emoji: "🌐",
     summary: "서비스 운영과 배포를 자동화하는 전문가",
     title: "데브옵스 엔지니어",
@@ -586,7 +586,7 @@ export const CAREER: {
       "**데브옵스 엔지니어**는 **개발과 운영을 자동화하고 최적화하는 일**을 해요! ⚙️ **CI/CD, 인프라 관리, 모니터링** 등을 활용해 **서비스가 안정적으로 운영**되도록 지원하는 직군이에요. 🚀",
   },
   game: {
-    image: "/images/game.png",
+    image: "/images/game.webp",
     emoji: "🎮",
     summary: "즐거움을 코딩하는 예술가",
     title: "게임 개발자",
@@ -610,7 +610,7 @@ export const CAREER: {
       "**게임 개발자**는 우리가 즐기는 게임을 직접 만드는 역할을 해요! 🎮 **Unity, Unreal Engine**을 활용해 게임을 설계하고 개발하는 직군이에요. 🕹️",
   },
   backend: {
-    image: "/images/backend.png",
+    image: "/images/backend.webp",
     emoji: "⚙️",
     summary: "보이지 않는 곳에서 세상을 움직이는 엔지니어",
     title: "백엔드 개발자",
@@ -633,7 +633,7 @@ export const CAREER: {
       "**백엔드 개발자**는 **웹사이트와 앱이 원활하게 동작하도록 서버를 개발**하는 역할을 해요! 💾 **FastAPI, Node.js, Spring Boot** 등을 활용해 **데이터 처리와 보안**을 담당하는 직군이에요. ⚙️",
   },
   designer: {
-    image: "/images/designer.png",
+    image: "/images/designer.webp",
     emoji: "🎨",
     summary: "감각을 그려내는 예술가",
     title: "디자이너",
@@ -657,7 +657,7 @@ export const CAREER: {
       "**디자이너**는 **제품이나 서비스의 시각적 요소와 UX를 설계**하는 역할을 해요! 🎨 **Figma, Photoshop** 등을 활용해 **직관적이고 아름다운 디자인**을 만드는 직군이에요. ✨",
   },
   pm: {
-    image: "/images/pm.png",
+    image: "/images/pm.webp",
     emoji: "📝",
     summary: "제품을 이끌어나가는 조직자",
     title: "프로젝트 매니저(PM)",

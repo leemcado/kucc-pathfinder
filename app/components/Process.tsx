@@ -21,7 +21,7 @@ export default function Process({
           }}
         >
           <div className="relative size-6 translate-x-1/2">
-            <Image src={asset("/mascot.png")} alt="Progress mascot" fill />
+            <Image src={asset("/mascot.webp")} alt="Progress mascot" fill />
           </div>
         </div>
       </div>
