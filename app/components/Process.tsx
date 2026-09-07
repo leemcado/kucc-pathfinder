@@ -1,3 +1,4 @@
+import { asset } from "@/utils/basePath";
 import cc from "classcat";
 import Image from "next/image";
 
@@ -20,7 +21,7 @@ export default function Process({
           }}
         >
           <div className="relative size-6 translate-x-1/2">
-            <Image src="/mascot.png" alt="Progress mascot" fill />
+            <Image src={asset("/mascot.png")} alt="Progress mascot" fill />
           </div>
         </div>
       </div>
@@ -33,7 +34,7 @@ export default function Process({
           ])}
           onClick={back}
         >
-          <img src="/back.svg" alt="Back" className="size-4" />
+          <img src={asset("/back.svg")} alt="Back" className="size-4" />
         </button>
         <div className="shrink-0 whitespace-nowrap text-xl font-bold text-primary">
           {step + 1} / {total}

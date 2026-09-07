@@ -1,17 +1,18 @@
+import { SITE_URL, asset } from "@/utils/basePath";
 import type { Metadata } from "next";
 import Footer from "./Footer";
 import "./globals.css";
 import Header from "./Header";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kucc-pathfinder.vercel.app"),
+  metadataBase: new URL(SITE_URL),
   title: "나에게 맞는 IT 직군은?",
   description: "2025 고려대학교 동아리박람회 @KUCC",
   openGraph: {
     images: ["/banner.png"],
   },
   icons: {
-    icon: [{ url: "/favicon.ico" }],
+    icon: [{ url: asset("/favicon.ico") }],
   },
 };
 

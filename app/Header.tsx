@@ -1,3 +1,4 @@
+import { asset } from "@/utils/basePath";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,7 +9,7 @@ export default function Header() {
         나에게 맞는 IT 직군은?
       </Link>
       <div className="relative size-8 shrink-0">
-        <Image src="/mascot.png" alt="KUCC 마스코트" quality={100} fill />
+        <Image src={asset("/mascot.png")} alt="KUCC 마스코트" quality={100} fill />
       </div>
     </header>
   );

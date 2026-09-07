@@ -1,3 +1,4 @@
+import { asset } from "@/utils/basePath";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -5,13 +6,13 @@ const CONTACTS = [
   {
     type: "KUCC Website",
     name: "KUCC 홈페이지",
-    image: "/mascot.png",
+    image: asset("/mascot.png"),
     href: "https://kucc.co.kr/",
   },
   {
     type: "Instagram",
     name: "KUCC 공식 인스타그램",
-    image: "/logos/instagram.png",
+    image: asset("/logos/instagram.png"),
     href: "https://www.instagram.com/kucc.co.kr/",
   },
 ];

@@ -3,11 +3,19 @@ import { CAREER } from "@/app/constant";
 import { activityToKorean } from "@/utils/toKorean";
 import type { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
+import { asset } from "@/utils/basePath";
 import Contacts from "./Contacts";
 
 type Props = {
   params: Promise<{ type: keyof typeof CAREER }>;
 };
+
+// 정적 export(output: "export")에서는 모든 동적 경로를 빌드 시점에 알아야 한다.
+export const dynamicParams = false;
+
+export function generateStaticParams(): { type: string }[] {
+  return Object.keys(CAREER).map((type) => ({ type }));
+}
 
 export async function generateMetadata(
   { params }: Props,
@@ -22,7 +30,7 @@ export async function generateMetadata(
   return {
     title: result.title,
     openGraph: {
-      images: [`/result/${result.image}`, ...previousImages],
+      images: [`/result/${type}.png`, ...previousImages],
     },
   };
 }
@@ -53,7 +61,7 @@ export default async function Result({
         <div className="w-full max-w-64">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={result.image}
+            src={asset(result.image)}
             alt={result.title}
             className="object-contain"
           />

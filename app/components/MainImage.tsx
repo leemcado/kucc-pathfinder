@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
+import { asset } from "@/utils/basePath";
 import { CAREER } from "../constant";
 
 export default function MainImage({
@@ -17,7 +18,7 @@ export default function MainImage({
     () =>
       Object.values(CAREER)
         .sort(() => Math.random() - 0.5)
-        .map((career) => career.image),
+        .map((career) => asset(career.image)),
     [],
   );
   const [selectedIndex, setSelectedIndex] = useState(0);

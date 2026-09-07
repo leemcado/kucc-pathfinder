@@ -1,4 +1,5 @@
 import { CAREER } from "@/app/constant";
+import { asset } from "./basePath";
 
 /**
  * @test 이 함수는 테스트용입니다. 실제로 사용하는 함수는 아닙니다.
@@ -23,7 +24,7 @@ export const generateResultImage = (type: keyof typeof CAREER) => {
   ctx.fillStyle = "#000000";
 
   const title = new Image();
-  title.src = "/title.png"; // 437 x 213
+  title.src = asset("/title.png"); // 437 x 213
   title.onload = () => {
     const titleWidth = 300;
     const titleHeight = (title.height * titleWidth) / title.width;
@@ -70,6 +71,6 @@ export const generateResultImage = (type: keyof typeof CAREER) => {
       link.href = canvas.toDataURL("image/png");
       link.click();
     };
-    img.src = result.image;
+    img.src = asset(result.image);
   };
 };
