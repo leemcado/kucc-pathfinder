@@ -453,15 +453,14 @@ export const CAREER: {
         title: "역시 웹개발은 프론트지!",
         type: "session",
         semester: "26-1",
-        description:
-          "JavaScript로 웹 프론트엔드 개발을 다루는 세션입니다. (난이도 medium · 3학점)",
+        description: "JavaScript로 웹 프론트엔드 개발을 다루는 세션입니다.",
       },
       {
         title: "프론트스타트",
         type: "session",
         semester: "25-2",
         description:
-          "프론트엔드를 처음 시작하는 사람을 위한 JavaScript 세션입니다. (난이도 easy · 3학점)",
+          "프론트엔드를 처음 시작하는 사람을 위한 JavaScript 세션입니다.",
       },
     ],
     description:
@@ -500,15 +499,13 @@ export const CAREER: {
         title: "화이트해커를 위한 Python 활용법",
         type: "session",
         semester: "26-1",
-        description:
-          "화이트해킹에 필요한 Python 활용법을 다루는 세션입니다. (난이도 medium · 2학점)",
+        description: "화이트해킹에 필요한 Python 활용법을 다루는 세션입니다.",
       },
       {
         title: "웹해킹 기초",
         type: "session",
         semester: "25-2",
-        description:
-          "웹 해킹의 기초를 다루는 세션입니다. (난이도 medium · 3학점)",
+        description: "웹 해킹의 기초를 다루는 세션입니다.",
       },
     ],
     description:
@@ -524,15 +521,13 @@ export const CAREER: {
         title: "씹어먹는 데이터콘",
         type: "session",
         semester: "26-1",
-        description:
-          "Python을 활용해 데이터 분석에 도전하는 세션입니다. (난이도 easy · 3학점)",
+        description: "Python을 활용해 데이터 분석에 도전하는 세션입니다.",
       },
       {
         title: "데이터 마이닝 [체험판]",
         type: "session",
         semester: "25-2",
-        description:
-          "Python과 R로 데이터 마이닝을 맛보는 세션입니다. (난이도 medium · 2학점)",
+        description: "Python과 R로 데이터 마이닝을 맛보는 세션입니다.",
       },
     ],
     description:
@@ -548,15 +543,13 @@ export const CAREER: {
         title: "딥러닝 논문 개론",
         type: "session",
         semester: "26-1",
-        description:
-          "딥러닝 논문을 함께 읽어보는 세션입니다. (난이도 hard · 3학점)",
+        description: "딥러닝 논문을 함께 읽어보는 세션입니다.",
       },
       {
         title: "컴퓨터 비전 기초",
         type: "session",
         semester: "26-1",
-        description:
-          "Python으로 컴퓨터 비전의 기초를 다루는 세션입니다. (난이도 medium · 3학점)",
+        description: "Python으로 컴퓨터 비전의 기초를 다루는 세션입니다.",
       },
     ],
     description:
@@ -572,15 +565,13 @@ export const CAREER: {
         title: "전전회장도 몰라서 같이 파보는 시스템 아키텍처 수업",
         type: "session",
         semester: "26-1",
-        description:
-          "시스템 아키텍처를 함께 파고드는 세션입니다. (난이도 medium · 2학점)",
+        description: "시스템 아키텍처를 함께 파고드는 세션입니다.",
       },
       {
         title: "리눅스 기초: 터미널 정복기",
         type: "study",
         semester: "25-1",
-        description:
-          "리눅스 터미널 사용법을 익히는 스터디입니다. (난이도 easy · 2학점)",
+        description: "리눅스 터미널 사용법을 익히는 스터디입니다.",
       },
     ],
     description:
@@ -596,15 +587,13 @@ export const CAREER: {
         title: "인디게임에서 살아남기",
         type: "study",
         semester: "26-1",
-        description:
-          "인디게임 개발을 주제로 한 스터디입니다. (난이도 medium · 3학점)",
+        description: "인디게임 개발을 주제로 한 스터디입니다.",
       },
       {
         title: "유니티 2D 기초",
         type: "session",
         semester: "25-2",
-        description:
-          "C#과 Unity로 2D 게임 개발의 기초를 다루는 세션입니다. (난이도 easy · 2학점)",
+        description: "C#과 Unity로 2D 게임 개발의 기초를 다루는 세션입니다.",
       },
     ],
     description:
@@ -620,15 +609,13 @@ export const CAREER: {
         title: "역시 웹개발은 백엔드지!!",
         type: "session",
         semester: "26-1",
-        description:
-          "JavaScript로 웹 백엔드 개발을 다루는 세션입니다. (난이도 easy · 3학점)",
+        description: "JavaScript로 웹 백엔드 개발을 다루는 세션입니다.",
       },
       {
         title: "개발 한다면서 누가 디자인 패턴 모르냐",
         type: "study",
         semester: "25-1",
-        description:
-          "개발에 쓰이는 디자인 패턴을 파고드는 스터디입니다. (난이도 hard · 3학점)",
+        description: "개발에 쓰이는 디자인 패턴을 파고드는 스터디입니다.",
       },
     ],
     description:
@@ -644,7 +631,7 @@ export const CAREER: {
         title: "Figma 스터디",
         type: "study",
         semester: "26-1",
-        description: "Figma를 함께 익히는 스터디입니다. (난이도 easy · 3학점)",
+        description: "Figma를 함께 익히는 스터디입니다.",
       },
       {
         title: "쿠씨톤",
@@ -667,8 +654,7 @@ export const CAREER: {
         title: "애자일이 아니라 그냥 실시간 감시 아닌가요?",
         type: "session",
         semester: "25-1",
-        description:
-          "애자일 방법론으로 프로젝트를 진행해보는 세션입니다. (난이도 medium · 3학점)",
+        description: "애자일 방법론으로 프로젝트를 진행해보는 세션입니다.",
       },
       {
         title: "쿠씨톤",
