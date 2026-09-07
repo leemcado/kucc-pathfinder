@@ -641,13 +641,6 @@ export const CAREER: {
     title: "디자이너",
     activity: [
       {
-        title: "나만의 포스터 만들기 세션",
-        type: "session",
-        semester: "26-1",
-        description:
-          "직접 포스터를 디자인해보는 세션입니다. (난이도 medium · 2학점)",
-      },
-      {
         title: "Figma 스터디",
         type: "study",
         semester: "26-1",
