@@ -7,7 +7,7 @@ import Header from "./Header";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "나에게 맞는 IT 직군은?",
-  description: "2025 고려대학교 동아리박람회 @KUCC",
+  description: "2026 고려대학교 동아리박람회 @KUCC",
   openGraph: {
     images: ["/banner.png"],
   },
