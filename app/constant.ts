@@ -450,18 +450,18 @@ export const CAREER: {
     title: "프론트엔드 개발자",
     activity: [
       {
-        title: "처음부터 시작하는 웹 프론트엔드 기초",
+        title: "역시 웹개발은 프론트지!",
         type: "session",
-        semester: "24-1",
+        semester: "26-1",
         description:
-          "HTML, CSS, JavaScript의 기본 개념을 익히고 React를 활용해 실습을 진행했습니다.",
+          "JavaScript로 웹 프론트엔드 개발을 다루는 세션입니다. (난이도 medium · 3학점)",
       },
       {
-        title: "리액트...문서 췍!!!",
+        title: "프론트스타트",
         type: "session",
-        semester: "24-2",
+        semester: "25-2",
         description:
-          "리액트 공식 문서를 함께 살펴보며 작동 원리와 실무 활용법을 학습했습니다.",
+          "프론트엔드를 처음 시작하는 사람을 위한 JavaScript 세션입니다. (난이도 easy · 3학점)",
       },
     ],
     description:
@@ -497,18 +497,18 @@ export const CAREER: {
     title: "보안 전문가",
     activity: [
       {
-        title: "정뾰안과 친해지기",
+        title: "화이트해커를 위한 Python 활용법",
         type: "session",
-        semester: "23-2",
+        semester: "26-1",
         description:
-          "정보보안 개념을 익히고, Linux 및 웹 보안 취약점을 실습하며 학습했습니다.",
+          "화이트해킹에 필요한 Python 활용법을 다루는 세션입니다. (난이도 medium · 2학점)",
       },
       {
-        title: "시스템 해킹(포너블) 공부",
-        type: "study",
-        semester: "23-2",
+        title: "웹해킹 기초",
+        type: "session",
+        semester: "25-2",
         description:
-          "드림핵 로드맵을 따라 시스템 해킹과 취약점 분석을 공부했습니다.",
+          "웹 해킹의 기초를 다루는 세션입니다. (난이도 medium · 3학점)",
       },
     ],
     description:
@@ -521,18 +521,18 @@ export const CAREER: {
     title: "데이터 과학자",
     activity: [
       {
-        title: "R 데이터 분석 기초",
+        title: "씹어먹는 데이터콘",
         type: "session",
-        semester: "23-2",
+        semester: "26-1",
         description:
-          "R을 활용한 다양한 데이터 분석 기법과 회귀·다변량·범주형 데이터 분석을 학습했습니다.",
+          "Python을 활용해 데이터 분석에 도전하는 세션입니다. (난이도 easy · 3학점)",
       },
       {
-        title: "내가 데이터분석을 아르켜줄게~",
+        title: "데이터 마이닝 [체험판]",
         type: "session",
-        semester: "24-2",
+        semester: "25-2",
         description:
-          "모바일 서비스 분석 방법론을 배우고, 가설 설정 및 검증 방법을 익혔습니다.",
+          "Python과 R로 데이터 마이닝을 맛보는 세션입니다. (난이도 medium · 2학점)",
       },
     ],
     description:
@@ -545,18 +545,18 @@ export const CAREER: {
     title: "인공지능(AI) 개발자",
     activity: [
       {
-        title: "컴퓨터한테 말 가르치는 법",
+        title: "딥러닝 논문 개론",
         type: "session",
-        semester: "24-1",
+        semester: "26-1",
         description:
-          "자연어처리 기초 개념과 딥러닝 모델 학습 과정을 살펴보았습니다.",
+          "딥러닝 논문을 함께 읽어보는 세션입니다. (난이도 hard · 3학점)",
       },
       {
-        title: "AttentionK: 자연어처리 논문 리뷰 스터디",
-        type: "study",
-        semester: "24-1",
+        title: "컴퓨터 비전 기초",
+        type: "session",
+        semester: "26-1",
         description:
-          "최신 자연어처리 논문을 리뷰하고, 딥러닝 기반 NLP 코딩을 실습했습니다.",
+          "Python으로 컴퓨터 비전의 기초를 다루는 세션입니다. (난이도 medium · 3학점)",
       },
     ],
     description:
@@ -569,17 +569,18 @@ export const CAREER: {
     title: "데브옵스 엔지니어",
     activity: [
       {
-        title: "스프링 부트로 배우는 서버 기초",
+        title: "전전회장도 몰라서 같이 파보는 시스템 아키텍처 수업",
         type: "session",
-        semester: "23-2",
-        description: "스프링 부트를 활용해 서버의 기초 개념을 학습했습니다.",
+        semester: "26-1",
+        description:
+          "시스템 아키텍처를 함께 파고드는 세션입니다. (난이도 medium · 2학점)",
       },
       {
-        title: "찍어 먹는 개발의 세계",
-        type: "session",
-        semester: "23-2",
+        title: "리눅스 기초: 터미널 정복기",
+        type: "study",
+        semester: "25-1",
         description:
-          "백엔드, 클라우드, 데이터베이스, 데브옵스를 포함한 다양한 개발 분야에 대한 기본적인 개념을 소개하는 활동이었습니다.",
+          "리눅스 터미널 사용법을 익히는 스터디입니다. (난이도 easy · 2학점)",
       },
     ],
     description:
@@ -592,18 +593,18 @@ export const CAREER: {
     title: "게임 개발자",
     activity: [
       {
-        title: "Unity로 FPS 멀티플레이 좀비 게임 만들기",
-        type: "session",
-        semester: "24-1",
+        title: "인디게임에서 살아남기",
+        type: "study",
+        semester: "26-1",
         description:
-          "Unity를 활용한 3D 게임 개발과 멀티플레이 구현을 실습했습니다.",
+          "인디게임 개발을 주제로 한 스터디입니다. (난이도 medium · 3학점)",
       },
       {
-        title: "Unity로 만드는 FPS 멀티플레이 게임",
+        title: "유니티 2D 기초",
         type: "session",
-        semester: "23-2",
+        semester: "25-2",
         description:
-          "Unity로 3D 게임 개발 기초를 익히고, 네트워크 개념을 접목한 멀티플레이를 구현했습니다.",
+          "C#과 Unity로 2D 게임 개발의 기초를 다루는 세션입니다. (난이도 easy · 2학점)",
       },
     ],
     description:
@@ -616,17 +617,18 @@ export const CAREER: {
     title: "백엔드 개발자",
     activity: [
       {
-        title: "씹어먹는 백엔드의 세계",
+        title: "역시 웹개발은 백엔드지!!",
         type: "session",
-        semester: "24-1",
+        semester: "26-1",
         description:
-          "백엔드 개발자의 기술을 탐색하고, 실습을 통해 직접 개발을 경험했습니다.",
+          "JavaScript로 웹 백엔드 개발을 다루는 세션입니다. (난이도 easy · 3학점)",
       },
       {
-        title: "백엔드를 배워보자",
-        type: "session",
-        semester: "24-2",
-        description: "FastAPI를 기반으로 백엔드 개발 기초 개념을 학습했습니다.",
+        title: "개발 한다면서 누가 디자인 패턴 모르냐",
+        type: "study",
+        semester: "25-1",
+        description:
+          "개발에 쓰이는 디자인 패턴을 파고드는 스터디입니다. (난이도 hard · 3학점)",
       },
     ],
     description:
@@ -639,18 +641,24 @@ export const CAREER: {
     title: "디자이너",
     activity: [
       {
+        title: "나만의 포스터 만들기 세션",
+        type: "session",
+        semester: "26-1",
+        description:
+          "직접 포스터를 디자인해보는 세션입니다. (난이도 medium · 2학점)",
+      },
+      {
+        title: "Figma 스터디",
+        type: "study",
+        semester: "26-1",
+        description: "Figma를 함께 익히는 스터디입니다. (난이도 easy · 3학점)",
+      },
+      {
         title: "쿠씨톤",
         type: "event",
         semester: "매 학기",
         description:
           "KUCC 교내 해커톤으로, 기획, 개발, 디자인까지 모두 해볼 수 있는 활동입니다.",
-      },
-      {
-        title: "나만의 작고 소중한 UI 컴포넌트 라이브러리 만들기",
-        type: "session",
-        semester: "24-1",
-        description:
-          "예쁘고 재사용 가능한 자신만의 웹 UI 컴포넌트를 디자인 및 개발해보는 활동이었습니다.",
       },
     ],
     description:
@@ -662,6 +670,13 @@ export const CAREER: {
     summary: "제품을 이끌어나가는 조직자",
     title: "프로젝트 매니저(PM)",
     activity: [
+      {
+        title: "애자일이 아니라 그냥 실시간 감시 아닌가요?",
+        type: "session",
+        semester: "25-1",
+        description:
+          "애자일 방법론으로 프로젝트를 진행해보는 세션입니다. (난이도 medium · 3학점)",
+      },
       {
         title: "쿠씨톤",
         type: "event",
